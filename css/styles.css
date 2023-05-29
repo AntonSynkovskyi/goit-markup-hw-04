@@ -150,7 +150,7 @@ img {
       var(--hero-background-color),
       var(--hero-background-color)
     ),
-    url(/images/people-office.jpg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
