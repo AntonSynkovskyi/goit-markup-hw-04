@@ -502,13 +502,13 @@ img {
 }
 .portfolio-item {
   width: calc((100% - 24px * 2) / 3);
-  border: 1px solid var(--accent-color);
 }
 
 .portfolio-item-link {
   display: block;
   width: 100%;
   height: 100%;
+  border: 1px solid var(--accent-color);
 }
 
 .portfolio-item-link:hover {
@@ -519,6 +519,7 @@ img {
 
 .portfolio-item-link > img {
   margin-bottom: 32px;
+  width: 100%;
 }
 
 .portfolio-item-container {
